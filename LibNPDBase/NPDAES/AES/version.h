@@ -1,0 +1,5 @@
+﻿#define MAIN_VERSION 1
+#define SUB_VERSION 1
+#define INNER_VERSION 1
+#define STAGE_VERSION 0
+#define COMPILE_TIME "2022/03/21 09:27:43"

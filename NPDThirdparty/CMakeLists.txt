@@ -1,0 +1,19 @@
+# CMAKE最低版本需求
+CMAKE_MINIMUM_REQUIRED(VERSION 3.13.0)
+
+# 工程名称
+project(npdthirdparty)
+
+# 包含文件夹
+INCLUDE(ExternalProject)
+
+SET(THIRDPARTY thirdparty)
+
+# 设置额外库的位置
+SET(EXTERNAL_INSTALL_LOCATION ${CMAKE_SOURCE_DIR}/Online)
+
+# 添加第第三方库(实时更新)
+# ExternalProject_Add(rpclib
+#     URL http:
+#     CMAKE_ARGS -DCMAKE_INSTALL_PREFIX=${CMAKE_CURRENT_SOURCE_DIR} -DCMAKE_C_COMPILER=${CMAKE_C_COMPILER} -DCMAKE_CXX_COMPILER=${CMAKE_CXX_COMPILER} -DCMAKE_CXX_FLAGS=${CMAKE_CXX_FLAGS} 
+# )

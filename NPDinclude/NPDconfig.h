@@ -1,0 +1,5 @@
+#define MAJOR_VERSION 1
+#define SPAWN_VERSION 1
+#define INNER_VERSION 1
+#define STAGE_VERSION 1
+#define BUILD_TIME "2022/03/21 09:27:43"

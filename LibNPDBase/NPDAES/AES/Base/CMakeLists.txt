@@ -1,0 +1,7 @@
+#把当前目录下所有源代码文件和头文件加入变量DIR_SRCS
+AUX_SOURCE_DIRECTORY(. DIR_SRCS)
+
+#将该目录中的源文件编译为共享库
+ADD_LIBRARY (base STATIC ${DIR_SRCS})
+
+SET(LIBRARY_OUTPUT_PATH ${CMAKE_SOURCE_DIR}/output/lib/AES)

@@ -1,3 +1,14 @@
+/**
+ * @file NPDMCUBmp.h
+ * @author BlueRabbit (515704389@protonmail.com)
+ * @brief 保存MCU下的图片(通过SPI,IIC显示的图片)
+ * @version 0.1
+ * @date 2022-03-04 11:05:14 
+ * 
+ * @copyright Copyright (c) 2022 BlueRabbit
+ * 
+ */
+
 #ifndef _NPD_MCU_BMP_H_
 #define _NPD_MCU_BMP_H_
 

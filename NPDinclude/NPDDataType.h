@@ -1,8 +1,22 @@
+/**
+ * @file NPDDataType.h
+ * @author BlueRabbit (515704389@protonmail.com)
+ * @brief 存放数据类型
+ * @version 0.1
+ * @date 2022-03-04 11:02:55 
+ * 
+ * @copyright Copyright (c) 2022 BlueRabbit
+ * 
+ */
+
 #ifndef _NPD_DATA_TYPE_H_
 #define _NPD_DATA_TYPE_H_
 
 #include <stdint.h>
 #include <stddef.h>
+
+#include <string>
+#include <vector>
 
 /*****************************************************
   Date types(Compiler specific) 数据类型（和编译器相关）
